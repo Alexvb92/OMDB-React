@@ -4,7 +4,7 @@ var Home = React.createClass({
   render: function(){
     return(
       <h2 className="text-center">
-        Search By OMDB movie name Above
+        Enter a movie name to start searching!
       </h2>
     )
   }

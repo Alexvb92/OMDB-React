@@ -11,8 +11,8 @@ var MovieData = React.createClass({
       <div>
       <div className="titlebox col-md-12">
       {this.props.moviedata.Error && <h1>Error: {this.props.moviedata.Error}</h1>}
-        {this.props.moviedata.Title && <h1>{this.props.moviedata.Title}</h1>}
-        {this.props.moviedata.Year && <h1>{this.props.moviedata.Year}</h1>}
+        {this.props.moviedata.Title && <h1 >{this.props.moviedata.Title}</h1>}
+        {this.props.moviedata.Year && <h1 >({this.props.moviedata.Year})</h1>}
       </div>
       <div>
       {this.props.moviedata.Rated && <li>IMDB Score: {this.props.moviedata.Rated}</li>}

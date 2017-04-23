@@ -16,7 +16,7 @@ var SearchOMDB = React.createClass({
       <div className="col-sm-12">
         <form onSubmit={this.handleSubmit}>
           <div className="form-group col-sm-7">
-            <input type="text" className="form-control" ref={this.getRef} />
+            <input type="text" className="form-control" required="required" ref={this.getRef} />
           </div>
           <div className="form-group col-sm-5">
             <button type="submit" className="btn btn-block btn-primary">Search OMDB</button>

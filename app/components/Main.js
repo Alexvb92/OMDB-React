@@ -6,7 +6,10 @@ var Main = React.createClass({
     return (
       <div className="main-container">
         <nav className="navbar navbar-default" role="navigation">
-          <div className="col-sm-7 col-sm-offset-2" style={{marginTop: 25}}>
+        <div className ="navbar-header col-sm-3">
+        <div className="navbar-brand "> OMDB Search </div>
+        </div>
+          <div className="col-sm-9"  style={{marginTop: 15}}>
             <SearchOMDB />
           </div>
         </nav>
