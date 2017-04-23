@@ -23,7 +23,7 @@ var Movie = React.createClass({
   render: function(){
     return (
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-12">
           <MovieData moviename={this.props.params.moviename} moviedata={this.state.moviedata} />
         </div>
       </div>
