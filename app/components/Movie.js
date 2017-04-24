@@ -16,6 +16,7 @@ var Movie = React.createClass({
       .then(function(data){
         this.setState({
           moviedata: data.moviedata,
+          moviesuggestions: data.moviesuggestions
         })
       }.bind(this))
   },

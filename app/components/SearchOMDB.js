@@ -1,6 +1,10 @@
 var React = require('react');
 var Router = require('react-router');
 
+const btnstyler = {
+  backgroundColor: '#777777'
+}
+
 var SearchOMDB = React.createClass({
   mixins: [Router.History],
   getRef: function(ref){
@@ -13,13 +17,13 @@ var SearchOMDB = React.createClass({
   },
   render: function(){
     return (
-      <div className="col-sm-12">
+      <div>
         <form onSubmit={this.handleSubmit}>
-          <div className="form-group col-sm-7">
+          <div className="form-group col-md-7">
             <input type="text" className="form-control" required="required" ref={this.getRef} />
           </div>
-          <div className="form-group col-sm-5">
-            <button type="submit" className="btn btn-block btn-primary">Search OMDB</button>
+          <div className="form-group col-md-5">
+            <button type="submit" className="btn btn-block btn-primary" style={btnstyler}>Search OMDB</button>
           </div>
         </form>
       </div>
