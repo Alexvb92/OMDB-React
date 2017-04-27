@@ -1,9 +1,11 @@
 React-OMDB is a simple movie searching app which uses the information supplied by the omdb api to provide movie results.
 
-The app can be veiwed live at: https://omdbsearcher.herokuapp.com/
+The app can be viewed live at: https://omdbsearcher.herokuapp.com/
 
 
 ##To Run locally:
+Open the command line in the folder where the files were cloned,
+
 Install dependencies
 ```shell
 npm install
