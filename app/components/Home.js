@@ -5,6 +5,7 @@ var Home = React.createClass({
     return(
       <h2 className="text-center">
         Enter a movie name to start searching!
+        <img src="http://i.imgur.com/4aVDvhN.png" />
       </h2>
     )
   }

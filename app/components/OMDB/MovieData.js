@@ -1,5 +1,6 @@
 var React = require('react');
 
+
 const boxstyler = {
   borderRadius: '1rem',
   border: '1px solid #fec96b',
@@ -42,10 +43,10 @@ var MovieData = React.createClass({
         moviedata: React.PropTypes.object.isRequired
     },
   render: function(){
-    console.log('moviedata', this.props.moviedata)
     return (
       <div>
-      <div className="errorbox col-md-12" style={centeralign}> {this.props.moviedata.Error && <h1> <img src="http://cdn.xl.thumbs.canstockphoto.com/canstock19454171.jpg" /> Sorry we can't find that movie!</h1>}
+      <div className="errorbox col-md-12" style={centeralign}> {this.props.moviedata.Error && <h1> <img src="http://i.imgur.com/qlQfmWP.png" /></h1> }</div>
+      <div className="errorbox col-md-12" style={centeralign}> {this.props.moviedata.Error && <h1>Sorry, we can't seem to find anything called {this.props.moviename}!</h1>}
       </div>
           <div className="theposter col-md-6" style={posterstyle} >
           {this.props.moviedata.Poster &&  <img src={this.props.moviedata.Poster} />}

@@ -11,7 +11,7 @@ var Movie = React.createClass({
       }
     }
   },
-   componentDidMount: function(){
+  componentDidMount: function(){
     helpers.getOMDBInfo(this.props.params.moviename)
       .then(function(data){
         this.setState({
@@ -20,7 +20,6 @@ var Movie = React.createClass({
         })
       }.bind(this))
   },
-
   render: function(){
     return (
       <div className="row">
