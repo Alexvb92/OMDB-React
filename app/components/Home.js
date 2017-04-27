@@ -9,6 +9,6 @@ var Home = React.createClass({
       </h2>
     )
   }
-})
+});
 
 module.exports = Home;

@@ -29,6 +29,6 @@ var Movie = React.createClass({
       </div>
     )
   }
-})
+});
 
 module.exports = Movie;
