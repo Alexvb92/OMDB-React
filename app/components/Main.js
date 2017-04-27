@@ -21,7 +21,7 @@ var Main = React.createClass({
       <div className="main-container">
         <row>
           <nav className="navbar navbar-default col-md-10 col-md-offset-1" role="navigation" style={navstyler}>
-            <div className=" col-md-4 " style={logostyler} > OMDB Search </div>
+            <div className=" col-md-4 " style={logostyler} > IMDB Search </div>
             <div className ="navbar-header" ></div>
             <div className="col-md-8"  style={{marginTop: 15}}>
               <SearchOMDB />
