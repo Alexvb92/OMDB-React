@@ -1,7 +1,7 @@
 var axios = require('axios');
 
 function getmovieinfo(moviename){
-  return axios.get('https://www.omdbapi.com/?t=' + moviename + '&plot=full');
+  return axios.get('https://www.omdbapi.com/?apikey=31c084ce&?t=' + moviename + '&plot=full');
 };
 
 
